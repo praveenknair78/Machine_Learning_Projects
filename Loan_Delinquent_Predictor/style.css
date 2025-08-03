@@ -1,0 +1,67 @@
+/* style.css */
+
+/* ---- General Page Styles ---- */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ---- Main Title (st.title) ---- */
+h1 {
+    color: #2c3e50 !important;
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555 !important;
+    text-align: center;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    margin-bottom: 15px;
+}
+
+/* Streamlit Main Content Area */
+[data-testid="stAppViewContainer"] {
+  background-color:#99e6ff;
+  padding: 0;
+}
+
+[data-testid="stHeader"] {
+  background-color:#99e6ff;
+  padding: 0;
+}
+
+/* Streamlit Sidebar */
+[data-testid="stSidebar"] {
+  background-color: #ffffe6; /* Lighter sidebar background */
+  padding: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #005580 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  padding: 10px 15px !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004066 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
